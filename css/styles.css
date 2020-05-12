@@ -20,17 +20,39 @@ p{
     color: brown;
 }
 
-.container-fluid{
-    padding-left: 200px;
-    padding-right: 200px;
-}
+
+
 
 #carimg{
-    margin-top: 150px;
+    margin-top: 100px;
     transform: rotate();
 }
 
+#title{
+    text-align: center;
+}
 
+@media (max-width:800px){
+
+  
+    #carimg{
+        width: 400px;
+        padding-top: 40px;
+        padding-bottom: 100px;
+        transform: rotate(-40deg);
+        position: relative;
+    }
+    
+}
+
+
+@media (min-width: 1000px)
+{
+    #title{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
 .navbar-brand{
     font-size: 2.5rem;
     font-weight: bold;
@@ -81,6 +103,7 @@ body{
 /*testimonials*/
 
 #testimonials{
+    padding-top: 100px;
     text-align: center;
     background-color: #ef8172;
     font-family: "Montserrat-Bolc";
@@ -114,4 +137,24 @@ body{
 /* pricing */
 #pricing{
     padding:60px 20px;
+}
+
+
+/* call to action */
+
+#cta{
+    padding: 7% 15%;
+    background-color:#3f3c3c ;
+    color: white;
+    font-family: "Montserrat-Bolc";
+    font-weight: bold;
+    font-size: large;
+}
+
+h3{
+    padding: 20px;
+}
+
+#footer{
+    padding: 20px;
 }
