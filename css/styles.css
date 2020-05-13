@@ -29,7 +29,7 @@ p{
 }
 
 #title{
-    text-align: center;
+    text-align: left;
 }
 
 @media (max-width:800px){
@@ -37,9 +37,8 @@ p{
   
     #carimg{
         width: 400px;
-        padding-top: 40px;
-        padding-bottom: 100px;
-        transform: rotate(-40deg);
+        padding: 40px 20px 30px 90px  ;
+        transform: rotate();
         position: relative;
     }
     
@@ -146,7 +145,7 @@ body{
     padding: 7% 15%;
     background-color:#3f3c3c ;
     color: white;
-    font-family: "Montserrat-Bolc";
+    font-family: "Montserrat-Bold";
     font-weight: bold;
     font-size: large;
 }
